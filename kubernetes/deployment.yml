@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: sampleapp 
+  name: sampleappkai
 spec:
   replicas: #replicaNo#
   selector:
     matchLabels:
-      app: sampleapp
+      app: sampleappkai
   template:
     metadata:
       labels:
-        app: sampleapp 
+        app: sampleappkai 
     spec:
       containers:
-        - name: sampleapp 
-          image: k8sexamplesacr.azurecr.io/sampleapp
+        - name: sampleappkai
+          image: k8sexamplesacr.azurecr.io/sampleappkai
           ports:
           - containerPort: 80
