@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: sampleappkai
-          image: k8sexamplesacr.azurecr.io/sampleappkai
+          image: kaikaiqi/sampleappkai
           ports:
           - containerPort: 80
