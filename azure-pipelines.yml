@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  imageRepo: sampleappkai
+  imageRepo: kaikaiqi/sampleappkai
   tag: '$(Build.BuildId)'
 
 stages:
